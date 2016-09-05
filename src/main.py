@@ -460,7 +460,7 @@ def ringProcessing():
             executeCommand(command.Command('OUT1', '1'))
         else:
             SER.send('Phone is not in Whitelist\r')
-        MOD.sleep(40)
+#         MOD.sleep(40)
         gsm.hangUp()
         
 def rebootCounterProcessing(delta):
